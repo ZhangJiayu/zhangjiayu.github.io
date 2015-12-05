@@ -1,13 +1,13 @@
 # SITE CONFIGURATION
-baseurl: "/fengzhichu-theme" # set it to "/" if use for personal site. The subpath of your site, e.g. /blog/
-baseurl: "/fengzhichu-theme" # the subpath of your site, e.g. /blog/
-url: "https://fengzhichu.com/fengzhichu-theme" # the base hostname & protocol for your site
+baseurl: "/" # set it to "/" if use for personal site. The subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://zhangjiayu.github.io" # the base hostname & protocol for your site
 imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: YOUR TITLE
+  title: Zhang Jiayu's Blog
   #avatar: avatar.png
   hometitle: Home #display on navigation menu.
   yoursitetitle: YOUR LOGO
@@ -21,17 +21,17 @@ theme:
   header_text_feature_image: img/sample_feature_img.png
   place_holder_image: img/sample_feature_img.png
   footer_text: >
-   <a href="https://yoursite.com">YOUR TITLE</a> 
+   <a href="https://zhangjiayu.github.io">My Homepage</a> 
 
   # Icons
   rss: false
-  email_address: "sam@example.com" # Full email address, e.g. "sam@example.com"
+  email_address: "TBA" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "fengzhichu"
+  github: "TBA"
   weibo: 
   google_plus:
   instagram:
@@ -42,7 +42,7 @@ theme:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "fengzhichu"
+  twitter: "TBA"
   wordpress:
   youtube:
 
