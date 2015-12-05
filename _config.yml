@@ -67,7 +67,7 @@ theme:
   post_navigation: false
 
 # PAGINATION
-enforce_ssl: "fengzhichu.com"
+enforce_ssl: "zhangjiayu.github.io"
 paginate: 5
 paginate_path: "blog/page:num"
 permalink: blog/:title/  #Delete preurl 'fengzhichu-theme/' if used for your personal site.
