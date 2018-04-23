@@ -5,7 +5,7 @@ url: "https://zhangjiayu.github.io" # the base hostname & protocol for your site
 imageurl: "https://source.unsplash.com/category/nature/2600x500" #"https://unsplash.it/2600/500?random"
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme: jekyll-material-theme
   # Meta
   title: Zhang Jiayu's Blog
   #avatar: avatar.png
