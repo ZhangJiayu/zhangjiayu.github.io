@@ -1,11 +1,11 @@
-current directory: /Users/jiayuzhang/Documents/personalpage/zhangjiayu.github.io/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180605-97703-17vn9xm.rb extconf.rb
+current directory: /Users/jiayuzhang/Documents/personalpage/centrarium-master/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20180605-91008-363ipc.rb extconf.rb
 creating Makefile
 
-current directory: /Users/jiayuzhang/Documents/personalpage/zhangjiayu.github.io/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+current directory: /Users/jiayuzhang/Documents/personalpage/centrarium-master/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" clean
 
-current directory: /Users/jiayuzhang/Documents/personalpage/zhangjiayu.github.io/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+current directory: /Users/jiayuzhang/Documents/personalpage/centrarium-master/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR="
 compiling ryah_http_parser.c
 compiling ruby_http_parser.c
@@ -15,6 +15,6 @@ ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app
 ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/libressl/lib'
 ld: warning: directory not found for option '-L/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.Internal.sdk/usr/local/lib'
 
-current directory: /Users/jiayuzhang/Documents/personalpage/zhangjiayu.github.io/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+current directory: /Users/jiayuzhang/Documents/personalpage/centrarium-master/vendor/bundle/ruby/2.3.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20180605-97703-13rldmv
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20180605-91008-1h95sl9
