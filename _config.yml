@@ -3,9 +3,9 @@ gems:
   # - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
 
-exclude:
-  - "/vendor/"
-
+# exclude:
+#   - "/vendor/"
+exclude: ["vendor"]
 # Site settings
 title: Jiayu's Blog
 subtitle: "Try not to become a man of success, but rather try to become a man of value."
@@ -14,14 +14,14 @@ name: Jiayu Zhang
 description: > 
   A simple yet classy theme for your Jekyll website or blog.
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "http://zhangjiayu.github.io" # the base hostname & protocol for your site
+url: "http://127.0.0.1" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 
 # Build settings
 markdown: kramdown
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: "blog/page:num/"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 # jekyll-archives: 
