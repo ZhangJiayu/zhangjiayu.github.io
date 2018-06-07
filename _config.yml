@@ -14,7 +14,7 @@ name: Jiayu Zhang
 description: > 
   A simple yet classy theme for your Jekyll website or blog.
 baseurl: "/"
-url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+url: "http://zhangjiayu.github.io/" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 
