@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<img src="{{ site.url }}assets/profile-placeholder.gif" title="Profile Picture" class="profile">
 Hi! My name is Jiayu Zhang. 
 This is my CV.
 
