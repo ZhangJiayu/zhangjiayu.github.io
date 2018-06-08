@@ -75,7 +75,7 @@
   <div class="navigation-wrapper">
     <a href="/" class="logo">
     	
-      <img src="/assets/logo.png" alt="Jiayu's Blog">
+      <span style=" float: left; align-content: center;float: left;padding: 0.7em;oat: left;">Jiayu's Blog</span>
       
     </a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
@@ -96,10 +96,6 @@
         
           
           <li class="nav-link"><a href="/posts/">Posts</a>
-          
-        
-          
-          <li class="nav-link"><a href="/typography/">Typography</a>
           
         
       </ul>
@@ -125,17 +121,56 @@
   
   <li>
     <h2>
-      <a class="post-link" href="/jekyll/2015/04/18/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+      <a class="post-link" href="/article/2018/05/18/FHE.html">A Super Simple Introduction to FHE</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <p>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...</p>
+      <p>数字世界的保险箱
+张佳瑜
+
+这是一篇有关同态加密的科普文。
+
+假设你得到了一大块金子。你想找工匠加工成好看的饰品，但又怕工匠偷走金子。而你又不会自己加工——怎么办呢？
+
+谈这个问题之前，我们先来补充一下背景信息。首先，这个问题不是发生在地球上，而是宇宙某处的一个异世界——数字世界。数字世界和现实世界一样有发达的物流系统，每时每刻都有不计其数的数字包裹到处传递着。包裹运输途中常常会遇到“盗窃者”。麻烦之处在于，数字世界的一切都可以复制。盗窃者只需等在包裹的必经之路上，把它复制一份—这就意味着，你的东西被“偷”走了。即使接收方收到的东西不受影响，只要偷窃者能接触到物品，偷窃就已经成功了。
+
+为了防盗，我们可以造一个保险箱，把东西锁在保险箱里送过去。即使盗窃者尝试复制，他也只能拿到锁在箱子里的物品，这不算成功。好了，问题解决！——真的是这样吗？
+
+问题在于，接收端怎么打开保险箱，取出物品呢？他需要保险箱的钥匙。钥匙怎么送过去？直接送不行，会被偷。当然，我们可以假设这两户人家祖上穿越到现实世界里跑了一趟，于是两个人从祖上开始就共享一把钥匙。
+
+只考虑两户人家的话，问题似乎又解决了。但数字世界的居民数以亿计，你希望和所有人之间都能安全地运送包裹的话，你需要和所有人家都分享一把钥匙。注意，你没有办法让别人互相分享你的钥匙——会被偷。你只能一个个去送，这就太麻烦了。
+
+要解决这个问题，我们可以造一个魔改版的保险箱。这个保险箱上有一个单向门，所有人都可以往里放东西，但只有拥有钥匙的人可以取出来。怎么用它做安全传输呢？比如，我想向小明发东西，我可以让小明（！）造一个魔改版的箱子发给我（注意是谁发给谁），我把东西通过单向门放进去，把箱子传给小明就可以了。我可以把箱子复制一份留着以后使用，也可以把箱子给其他人。问题解决！
+
+很长的背景介绍完了，回到原先的问题。在这个问题里，你想要找的工匠，同时有着“信息接收方”和“盗窃者”对双重身份。这个问题还能解决吗？
+
+注意，称金子的重量是不可行的。第一，金子只是数字包裹的一个具象化，是可复制的，只要能接触到就算盗窃成功。第二，金子不但会发生物理变化，还会发生化学变化。
+
+所以…著名的同态保险箱（密码）出现了！
+
+首先，和上面一样，我们要把东西放在保险箱里，把钥匙自己藏起来。然后，我们希望这个保险箱有一个柔软的外壳，工匠可以隔着外壳去操作里面的东西，又没法把东西拿出来。这个功能，就好像生物实验室里用的手套箱一样。
+
+为了造出这样的箱子，我们先考察一下已有的一些单向门保险箱。我们发现，其中有一类保险箱，叫做格保险箱，本身已经有一定的这样的特性。这种保险箱允许我们做各种操作，操作种类还挺全面——既有物理变化，也有化学变化。但问题是，这个箱子能承受的操作次数是有限的。少于这个限度时东西没任何问题，但一旦超过这个限度，箱子就会释放出大量有害物质，把箱子里的东西完全搞乱。
+
+（神奇的技巧要出现了！）首先我们尝试一下这么做：制造很多个这样的箱子，每个箱子有一把自己的钥匙。首先，我们把金子放在第一个箱子里，送给工匠。工匠做几次操作，并在即将达到这个箱子的承受限度时停下来。为了继续，我们把第一个箱子的钥匙放在第二个箱子里，送给工匠。因为工匠并没有第二个箱子的钥匙，他无法从中取出第一个箱子的钥匙。但是！他可以把第一个箱子整体放进第二个箱子里面，然后隔着第二个箱子把第一个箱子打开！
+
+也就是说，工匠必须要在第二个箱子的使用限度里完成“打开第一个箱子”这个操作。接下来，他只要在第二个箱子里再多做一次操作就行了。即使第二个箱子马上就要“寿终正寝”，我们还有第三个箱子…
+
+问题至此已经可以认为解决了，但我们还可以再多做一点。我们注意到，这种技巧，当“金子加工”这一工作需要的操作次数很多的时候，我们要制造很多很多个箱子。有没有办法让“我”再懒一些呢？答案在下面：-）
+
+提示1: 箱子连同里面的所有东西可以一起被复制 提示2: 箱子只能从外面打开
+（答案：把钥匙扔到它自己的箱子里）
+
+后记
+
+全同态加密算法在09年由Craig Gentry构造出来并发表，引起了轰动。如今云计算大发展，隐私问题得到关注，在未来同态加密算法会有非常多的应用。
+</p>
     </section>
     <section class="post-meta">
-    	<div class="post-date">April 18, 2015</div>
+    	<div class="post-date">May 18, 2018</div>
     	<div class="post-categories">
     	in 
     	  
-    	  <span>Jekyll</span>
+    	  <span>Article</span>
     	  
     	
     	</div>
@@ -147,17 +182,18 @@
   
   <li>
     <h2>
-      <a class="post-link" href="/dummy/2015/04/18/dummy6.html">Dummy Post 6</a>
+      <a class="post-link" href="/welcome/2017/04/18/welcome.html">Welcome to My Blog!</a>
     </h2>
     <section class="post-excerpt" itemprop="description">
-      <p>This is just a dummy post. Lorem ipsum and all the rest. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute...</p>
+      <p>Welcome to my blog!
+</p>
     </section>
     <section class="post-meta">
-    	<div class="post-date">April 18, 2015</div>
+    	<div class="post-date">April 18, 2017</div>
     	<div class="post-categories">
     	in 
     	  
-    	  <span>Dummy</span>
+    	  <span>Welcome</span>
     	  
     	
     	</div>
@@ -218,10 +254,6 @@
           <li class="nav-link"><a href="/posts/">Posts</a>
         
         
-        
-          <li class="nav-link"><a href="/typography/">Typography</a>
-        
-        
       </ul>
     </div>
 
@@ -248,7 +280,7 @@
       	
 	      	
 	      	<li>
-	          <a href="www.linkedin.com/in/jiayu-zhang-tpb16" title="Connect with me on LinkedIn">
+	          <a href="https://www.linkedin.com/in/jiayu-zhang-tpb16" title="Connect with me on LinkedIn">
 	            <i class="fa fa-linkedin"></i>
 	            <span class="username">Jiayu Zhang</span>
 	          </a>
