@@ -1,8 +1,7 @@
-# Centrarium [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
+This blog is based on the followings.
 
-## License
-
-MIT. See [LICENSE.MD](https://github.com/bencentra/centrarium/blob/master/LICENSE.md).
+Centrarium [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
+See license/LICENSE.MD and [LICENSE.MD](https://github.com/bencentra/centrarium/blob/master/LICENSE.md).
 
 [bencentra]: http://bencentra.com
 [bourbon]: http://bourbon.io/
