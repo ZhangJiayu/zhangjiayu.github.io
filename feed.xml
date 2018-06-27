@@ -5,9 +5,64 @@
     <description></description>
     <link>http://zhangjiayu.github.io///</link>
     <atom:link href="http://zhangjiayu.github.io///feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Jun 2018 16:46:36 -0400</pubDate>
-    <lastBuildDate>Sat, 09 Jun 2018 16:46:36 -0400</lastBuildDate>
+    <pubDate>Tue, 26 Jun 2018 22:53:43 -0400</pubDate>
+    <lastBuildDate>Tue, 26 Jun 2018 22:53:43 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>How to Understand Schrodinger&#39;s Equation</title>
+        <description>&lt;h1 id=&quot;how-to-understand-schrodingers-equation&quot;&gt;How to Understand Schrodinger’s Equation&lt;/h1&gt;
+
+&lt;p&gt;What is the solution for the following equation?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{d}{dt}y=-y&lt;/script&gt;
+
+&lt;p&gt;A solution is &lt;script type=&quot;math/tex&quot;&gt;y=e^{-t}&lt;/script&gt;, right?&lt;/p&gt;
+
+&lt;p&gt;How about the following?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{d^2}{dx^2}y=-y&lt;/script&gt;
+
+&lt;p&gt;We can easily find &lt;script type=&quot;math/tex&quot;&gt;\sin(x)&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;\cos(x)&lt;/script&gt; as its solution.&lt;/p&gt;
+
+&lt;p&gt;What if we add an imaginary unit &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;i\frac{d}{dt}y=y&lt;/script&gt;
+
+&lt;p&gt;A solution is &lt;script type=&quot;math/tex&quot;&gt;y=e^{-it}&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Pay attention! &lt;script type=&quot;math/tex&quot;&gt;y=e^{-it}&lt;/script&gt; is a periodic function!&lt;/p&gt;
+
+&lt;p&gt;What if &lt;script type=&quot;math/tex&quot;&gt;y&lt;/script&gt; is a function of both &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; and &lt;script type=&quot;math/tex&quot;&gt;t&lt;/script&gt;, and satisfies the following equation?&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;i\frac{\partial}{\partial t}y=\frac{\partial^2}{\partial x^2}y&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\partial&lt;/script&gt; means taking derivative with respect to one variable.&lt;/p&gt;
+
+&lt;p&gt;Emm..&lt;/p&gt;
+
+&lt;p&gt;How about this?&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;y=e^{-it}\sin(x)&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;y=e^{-it}\cos(x)&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Wow!&lt;/p&gt;
+
+&lt;p&gt;Again, it’s periodic! It describes wave!&lt;/p&gt;
+
+&lt;p&gt;What if we consider arbitrary dimension instead of one dimension, and replace &lt;script type=&quot;math/tex&quot;&gt;\frac{\partial^2}{\partial x^2}&lt;/script&gt; with a Hamiltonian operator?&lt;/p&gt;
+
+&lt;p&gt;And you get Schrodinger’s equation!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Jun 2018 06:30:59 -0400</pubDate>
+        <link>http://zhangjiayu.github.io///article/2018/06/27/SchWP.html</link>
+        <guid isPermaLink="true">http://zhangjiayu.github.io///article/2018/06/27/SchWP.html</guid>
+        
+        <category>article</category>
+        
+        
+        <category>article</category>
+        
+      </item>
     
       <item>
         <title>A Super Simple Introduction to FHE</title>
