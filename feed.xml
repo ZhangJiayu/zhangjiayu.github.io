@@ -5,8 +5,8 @@
     <description></description>
     <link>http://zhangjiayu.github.io///</link>
     <atom:link href="http://zhangjiayu.github.io///feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Jun 2018 23:40:31 -0400</pubDate>
-    <lastBuildDate>Tue, 26 Jun 2018 23:40:31 -0400</lastBuildDate>
+    <pubDate>Wed, 27 Jun 2018 17:06:39 -0400</pubDate>
+    <lastBuildDate>Wed, 27 Jun 2018 17:06:39 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,13 +14,11 @@
         <description>&lt;h1 id=&quot;section&quot;&gt;一些趣题&lt;/h1&gt;
 &lt;p&gt;张佳瑜&lt;/p&gt;
 
-&lt;p&gt;整理一些趣题给大家玩玩。难度递增。看看大家能做到哪。&lt;/p&gt;
+&lt;p&gt;整理一些趣题给大家玩玩。难度递增。看看大家能做到哪。（注：这些问题都有非常简洁容易理解的解法）&lt;/p&gt;
 
 &lt;h4 id=&quot;section-1&quot;&gt;小学篇&lt;/h4&gt;
 
 &lt;p&gt;平面上&lt;script type=&quot;math/tex&quot;&gt;ABCD&lt;/script&gt;组成凸四边形，求到四个点距离之和最小的点。&lt;/p&gt;
-
-&lt;p&gt;为什么一个数除3的余数等于各位数字之和除3的余数？&lt;/p&gt;
 
 &lt;h4 id=&quot;section-2&quot;&gt;初中篇&lt;/h4&gt;
 
@@ -29,6 +27,8 @@
 &lt;p&gt;求值：&lt;script type=&quot;math/tex&quot;&gt;1+\frac{1}{1+\frac{1}{1+\frac{1}{\cdots}}}=?&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;证明当&lt;script type=&quot;math/tex&quot;&gt;n\rightarrow +\infty&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}\rightarrow +\infty&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;棱长为1的正方体，正投影下阴影面积最大为多少？&lt;/p&gt;
 
 &lt;h4 id=&quot;section-3&quot;&gt;高中篇&lt;/h4&gt;
 
@@ -46,13 +46,14 @@
 
 &lt;h4 id=&quot;section-4&quot;&gt;高中以上篇&lt;/h4&gt;
 
-&lt;p&gt;求值：&lt;script type=&quot;math/tex&quot;&gt;1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\cdots+\frac{1}{n^2}&lt;/script&gt;&lt;/p&gt;
+&lt;p&gt;求值：&lt;script type=&quot;math/tex&quot;&gt;1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\cdots+\frac{1}{n^2}+\cdots&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;证明所有素数的倒数之和发散。&lt;/p&gt;
+
+&lt;p&gt;给定一个n位整数，如何快速判定它是不是素数？（要求时间为n的多项式）&lt;/p&gt;
 
 &lt;p&gt;证明一个上面没有结的绳圈（不剪断）不能变形成一个上面打了一个结的绳圈。（这太直观了，可是怎么证？）&lt;/p&gt;
 
-&lt;p&gt;（类似于上面那个题）证明打了一个结的绳圈不能变形成它的镜面对称。&lt;/p&gt;
-
-&lt;p&gt;（如果你能在不知道背景的情况下做到最后，请去研究数学。）&lt;/p&gt;
 </description>
         <pubDate>Thu, 28 Jun 2018 06:58:59 -0400</pubDate>
         <link>http://zhangjiayu.github.io///article/2018/06/28/problemset.html</link>
