@@ -5,8 +5,8 @@
     <description></description>
     <link>http://zhangjiayu.github.io///</link>
     <atom:link href="http://zhangjiayu.github.io///feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Jun 2018 17:06:39 -0400</pubDate>
-    <lastBuildDate>Wed, 27 Jun 2018 17:06:39 -0400</lastBuildDate>
+    <pubDate>Wed, 27 Jun 2018 19:18:21 -0400</pubDate>
+    <lastBuildDate>Wed, 27 Jun 2018 19:18:21 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -20,19 +20,19 @@
 
 &lt;p&gt;平面上&lt;script type=&quot;math/tex&quot;&gt;ABCD&lt;/script&gt;组成凸四边形，求到四个点距离之和最小的点。&lt;/p&gt;
 
-&lt;h4 id=&quot;section-2&quot;&gt;初中篇&lt;/h4&gt;
-
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;8\times 8&lt;/script&gt;的棋盘挖掉两个对角方块，证明它不能用&lt;script type=&quot;math/tex&quot;&gt;1\times 2&lt;/script&gt;的格子铺满。&lt;/p&gt;
+
+&lt;h4 id=&quot;section-2&quot;&gt;初中篇&lt;/h4&gt;
 
 &lt;p&gt;求值：&lt;script type=&quot;math/tex&quot;&gt;1+\frac{1}{1+\frac{1}{1+\frac{1}{\cdots}}}=?&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;证明当&lt;script type=&quot;math/tex&quot;&gt;n\rightarrow +\infty&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}\rightarrow +\infty&lt;/script&gt;&lt;/p&gt;
-
 &lt;p&gt;棱长为1的正方体，正投影下阴影面积最大为多少？&lt;/p&gt;
+
+&lt;p&gt;写出斐波那契数列的通项公式。&lt;/p&gt;
 
 &lt;h4 id=&quot;section-3&quot;&gt;高中篇&lt;/h4&gt;
 
-&lt;p&gt;写出斐波那契数列的通项公式。&lt;/p&gt;
+&lt;p&gt;证明当&lt;script type=&quot;math/tex&quot;&gt;n\rightarrow +\infty&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;1+\frac{1}{2}+\frac{1}{3}+\cdots+\frac{1}{n}\rightarrow +\infty&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;证明椭圆一个焦点发出的光线，反射后经过另一焦点。&lt;/p&gt;
 
@@ -42,15 +42,15 @@
 
 &lt;p&gt;证明：平面上给定不全共线的多个点，必有一条直线经过且恰好只经过两个点。&lt;/p&gt;
 
-&lt;p&gt;证明不存在一个整数和实数间的一一对应。&lt;/p&gt;
-
 &lt;h4 id=&quot;section-4&quot;&gt;高中以上篇&lt;/h4&gt;
+
+&lt;p&gt;证明不存在一个整数和实数间的一一对应。&lt;/p&gt;
 
 &lt;p&gt;求值：&lt;script type=&quot;math/tex&quot;&gt;1+\frac{1}{4}+\frac{1}{9}+\frac{1}{16}+\cdots+\frac{1}{n^2}+\cdots&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;证明所有素数的倒数之和发散。&lt;/p&gt;
+&lt;p&gt;给定两个n位整数，如何快速计算它们的乘积？（竖式乘法需要的时间是n平方级，有一个简单的技巧可以得到一个&lt;script type=&quot;math/tex&quot;&gt;n^{\log_2 3}&lt;/script&gt;的算法）&lt;/p&gt;
 
-&lt;p&gt;给定一个n位整数，如何快速判定它是不是素数？（要求时间为n的多项式）&lt;/p&gt;
+&lt;p&gt;证明所有素数的倒数之和发散。&lt;/p&gt;
 
 &lt;p&gt;证明一个上面没有结的绳圈（不剪断）不能变形成一个上面打了一个结的绳圈。（这太直观了，可是怎么证？）&lt;/p&gt;
 
